@@ -7,8 +7,12 @@ def line
   puts "-----------"
 end
 
-rows
-line
-rows
-line
-rows
+def display_board
+  rows
+  line
+  rows
+  line
+  rows
+end
+
+display_board
